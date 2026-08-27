@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chymanhaya - Kurdish Food & Calorie Tracker</title>
+    <meta
+      name="description"
+      content="Chymanhaya helps Kurdish speakers discover meals, plan their week, track calories, save favorites, and get food suggestions from ingredients."
+    >
+    <meta property="og:title" content="Chymanhaya">
+    <meta
+      property="og:description"
+      content="A Kurdish food and calorie tracking app with meal planning, search, favorites, recipes, and health-aware suggestions."
+    >
+    <meta property="og:image" content="assets/app-icon.png">
+    <meta name="theme-color" content="#168B4B">
+    <link rel="icon" href="assets/app-icon.png">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Chymanhaya home">
+        <img src="assets/app-icon.png" alt="">
+        <span>Chymanhaya</span>
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="#features">Features</a>
+        <a href="#screens">Preview</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="support.html">Support</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Kurdish meal planning, made practical</p>
+          <h1>Chymanhaya helps you choose what to eat, cook, and track.</h1>
+          <p>
+            Discover Kurdish meals, follow recipe steps, plan your week, track calories, save
+            favorites, and filter suggestions around your health conditions.
+          </p>
+          <div class="actions">
+            <a class="button primary" href="#features">See what it does</a>
+            <a class="button secondary" href="privacy.html">Read privacy policy</a>
+          </div>
+        </div>
+        <div class="phone" aria-label="App preview">
+          <div class="phone-top">
+            <span></span>
+          </div>
+          <div class="phone-screen">
+            <div class="app-title">چیم ئەنهایە</div>
+            <div class="calorie-ring">
+              <strong>1,420</strong>
+              <span>kcal today</span>
+            </div>
+            <div class="meal-card">
+              <img src="assets/meal-chicken-rice.jpg" alt="Chicken and rice meal">
+              <div>
+                <strong>مریشک و برنج</strong>
+                <span>520 kcal - 45 min</span>
+              </div>
+            </div>
+            <div class="meal-grid">
+              <span>Breakfast</span>
+              <span>Lunch</span>
+              <span>Dinner</span>
+              <span>Snack</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section intro">
+        <div>
+          <h2>Built for everyday food decisions</h2>
+          <p>
+            Chymanhaya focuses on useful daily actions: finding a suitable dish, checking
+            nutrition, logging meals, and deciding what can be cooked from available ingredients.
+          </p>
+        </div>
+        <dl class="stats">
+          <div>
+            <dt>24</dt>
+            <dd>starter dishes</dd>
+          </div>
+          <div>
+            <dt>4</dt>
+            <dd>meal slots</dd>
+          </div>
+          <div>
+            <dt>100%</dt>
+            <dd>Kurdish app copy</dd>
+          </div>
+        </dl>
+      </section>
+
+      <section class="section" id="features">
+        <div class="section-heading">
+          <p class="eyebrow">Features</p>
+          <h2>What the app can do</h2>
+        </div>
+        <div class="feature-grid">
+          <article>
+            <span class="icon">01</span>
+            <h3>Track calories by meal</h3>
+            <p>Log breakfast, lunch, dinner, and snacks with calories and nutrition details.</p>
+          </article>
+          <article>
+            <span class="icon">02</span>
+            <h3>Plan the week</h3>
+            <p>Build a weekly meal plan so daily eating choices are easier to manage.</p>
+          </article>
+          <article>
+            <span class="icon">03</span>
+            <h3>Search Kurdish dishes</h3>
+            <p>Browse meals and desserts with Kurdish names, ingredients, and recipe steps.</p>
+          </article>
+          <article>
+            <span class="icon">04</span>
+            <h3>Cook from ingredients</h3>
+            <p>Select ingredients you already have and see which dishes you can make.</p>
+          </article>
+          <article>
+            <span class="icon">05</span>
+            <h3>Health-aware suggestions</h3>
+            <p>Hide foods that are not suitable for selected health conditions.</p>
+          </article>
+          <article>
+            <span class="icon">06</span>
+            <h3>Private local storage</h3>
+            <p>Favorites, settings, custom foods, and meal logs are stored locally in SQLite.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section gallery" id="screens">
+        <div class="section-heading">
+          <p class="eyebrow">Preview</p>
+          <h2>Food-first, simple, and Kurdish-friendly</h2>
+        </div>
+        <div class="dish-row">
+          <article>
+            <img src="assets/meal-dolma.jpg" alt="Dolma dish">
+            <h3>دۆڵمە</h3>
+            <p>Recipe steps, ingredients, and nutrition in one place.</p>
+          </article>
+          <article>
+            <img src="assets/meal-fish.jpg" alt="Grilled fish dish">
+            <h3>ماسی برژاو</h3>
+            <p>Search and save lighter meal ideas for dinner.</p>
+          </article>
+          <article>
+            <img src="assets/dessert-baklava.jpg" alt="Baklava dessert">
+            <h3>باقلەوە</h3>
+            <p>Desserts live in their own catalog and stay out of meal planning.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section notice">
+        <div>
+          <p class="eyebrow">Important</p>
+          <h2>Health information is general guidance</h2>
+        </div>
+        <p>
+          Chymanhaya can help organize food choices, but it is not medical advice. Users with
+          health conditions should consult a doctor or qualified nutrition professional.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <span>Chymanhaya</span>
+      <nav aria-label="Footer navigation">
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms</a>
+        <a href="support.html">Support</a>
+      </nav>
+    </footer>
+  </body>
+</html>
